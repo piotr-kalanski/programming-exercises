@@ -1,0 +1,1 @@
+Repository for practising simple programming exercises.
