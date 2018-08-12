@@ -1,5 +1,5 @@
 package aaa_template;
-// TODO - copy solution:
+// TODO - copy solution template:
 
 public class Solution {
 
