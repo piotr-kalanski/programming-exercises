@@ -27,6 +27,7 @@ public class SolutionTests {
     // TODO - change input expected output type:
     private void runTest(String input, int expectedOutput) {
         System.out.println("\n\nINPUT:");
+        // TODO - change println input - if two
         System.out.println(input);
 
         // TODO - change method:
