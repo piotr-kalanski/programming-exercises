@@ -14,9 +14,9 @@ class SolutionTests(unittest.TestCase):
             ]
         )
 
-    def __run_test(self, expected_output, english_students, french_students):
+    def __run_test(self, expected_output, a, others_sets):
         # run solution
-        output = solve(english_students, french_students)
+        output = solve(a, others_sets)
 
         # check that output is equal to expected output
         self.assertEqual(expected_output, output)
