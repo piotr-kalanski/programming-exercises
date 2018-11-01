@@ -3,9 +3,9 @@ elements = map(int, input().split())
 frequencies = map(int, input().split())
 
 numbers = []
-for n,f in zip(elements, frequencies):
-    for i in range(f):
-        numbers.append(n)
+for n, f in zip(elements, frequencies):
+    numbers += [n] * f
+
 
 def median(collection):
     if len(collection) % 2 == 0:
@@ -25,6 +25,7 @@ def quartiles(collection):
 
     return median(lower_half), median(collection), median(upper_half)
 
+
 q1, q2, q3 = quartiles(numbers)
 
-print(q3 - q1)
+print(round(float(q3-q1), 1))
